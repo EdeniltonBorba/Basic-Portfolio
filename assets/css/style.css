@@ -3,7 +3,7 @@
 }
 
 body {
-    background: url();
+    background-image: url("cardboard.png");
     font-size: 18px;
     line-height: 34px;
     font-family: Arial, Helvetica, sans-serif;
@@ -17,31 +17,7 @@ body {
     clear: both;
 }
 
-h1, h2, h3, p {
-    margin-bottom: 20px;
-}
-
-p:last-child {
-    margin-bottom: 0;
-}
-
-h1, h2, h3 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 700px;
-    color: #4aaaa5;
-}
-
-h1 {
-    font-size: 30px;
-    line-height: 49px;
-    border-bottom: 3px solid #dddddd;
-    padding-bottom: 20px;
-}
-
-
-h2,h3 {
-    font-size: 22px;
-}
+/*header*/
 
 #masthead {
     background: #ffffff;
@@ -86,11 +62,34 @@ nav a {
 nav a:first-child {
     border-left: 0 none;
 }
-#main-section {
-    padding-top: 130px;
-    padding-bottom: 130px;
-    
+
+h1, h2, h3, p {
+    margin-bottom: 20px;
 }
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700px;
+    color: #4aaaa5;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #dddddd;
+    padding-bottom: 20px;
+}
+
+
+h2,h3 {
+    font-size: 22px;
+}
+
+/*main*/
 
 .main-container {
     background: #ffffff;
@@ -102,6 +101,12 @@ nav a:first-child {
     border: 1px solid #dddddd;
 }
 
+#main-section {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    
+}
+
 .auth-image {
     width: 200px;
     height: auto;
@@ -109,11 +114,6 @@ nav a:first-child {
     float: left;
     margin-right: 25px;
 }
-
-
-
-
-
 
 footer {
     background: #666666;
@@ -141,7 +141,11 @@ footer {
 }
 
 .work img {
-    width: 100px;
+    width: 274px;
+    overflow: auto;
+    position: relative;
+    float: left;
+    margin: 20px 0 25px;
     border: 0 none;
     opacity: .8px;
 }
@@ -191,7 +195,7 @@ textarea {
     height: 200px;
 }
 
-input [type=submit] {
+input[type=submit] {
     background: #4aaaa5;
     border: 0 none;
     color: #ffffff;
